@@ -1,0 +1,10 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+out
+.idea
+*.class
+*.ctxt
+package.bluej
+Simulation-Project.iml

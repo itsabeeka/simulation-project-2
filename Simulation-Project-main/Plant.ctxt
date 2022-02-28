@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Plant
+comment1.params=randomAge\ field\ location
+comment1.target=Plant(boolean,\ Field,\ Location)
+comment1.text=\r\n\ Create\ a\ new\ plant.\ A\ plant\ may\ be\ created\ with\ age\r\n\ zero\ (a\ newborn)\ or\ with\ a\ random\ age.\r\n\ (Random\ Age\ factor\ is\ handled\ in\ superclass\ Species)\r\n\r\n\ @param\ randomAge\ If\ true,\ the\ human\ will\ have\ a\ random\ age.\r\n\ @param\ field\ \ \ \ \ The\ field\ currently\ occupied.\r\n\ @param\ location\ \ The\ location\ within\ the\ field.\r\n
+comment2.params=
+comment2.target=int\ breed()
+comment2.text=\r\n\ Override\ plants\ breeding\ as\ don't\ need\ to\ check\ if\ they\ have\ mates\ and\r\n\ have\ random\ number\ of\ births.\r\n\ Plants\ grow\ at\ a\ constant\ rate\ -\ so\ their\ births\ will\ be\ their\ maximum\r\n\ births\ (BIRTH_LIMIT)\r\n\r\n\ @return\ the\ number\ of\ births\r\n
+comment3.params=newPlants\ isDay\ diseaseBeingSpread\ weatherOccurring
+comment3.target=void\ act(java.util.List,\ boolean,\ Disease,\ Weather)
+comment3.text=\r\n\ This\ is\ what\ the\ plant\ does\ most\ of\ the\ time\ -\ it\ ages,\ breeds,\ responds\r\n\ to\ weather\ and\ diseases.\r\n\ If\ a\ disease\ is\ being\ spread\ and\ a\ plant\ carries\ this\ disease\ -\ it\r\n\ spreads\ to\ any\ neighboring\ plants\ of\ the\ same\ subclass.\r\n\ If\ a\ weather\ event\ is\ not\ null,\ the\ effect\ of\ that\ weather\ is\ called\ and\ if\r\n\ it's\ not\ raining\ effectOfNoRain\ is\ called.\r\n\ If\ the\ simulation\ is\ in\ nighttime,\ plants\ only\ age.\r\n\r\n\ @param\ newPlants\ \ \ \ \ \ \ \ \ \ A\ list\ to\ return\ newly\ born\ predators.\r\n\ @param\ isDay\ \ \ \ \ \ \ \ \ \ \ \ \ \ Determines\ if\ the\ simulation\ is\ in\ day\ or\ night\ t(ime\r\n\ @param\ diseaseBeingSpread\ The\ disease\ being\ spread\ (can\ be\ null)\r\n\ @param\ weatherOccurring\ \ \ The\ weather\ event\ occurring\ (can\ be\ null)\r\n
+comment4.params=
+comment4.target=void\ effectOfNoRain()
+comment4.text=\r\n\ Decreases\ the\ energy\ level\ of\ the\ plant\ by\ 1.\r\n\ Called\ when\ it's\ not\ raining\ in\ the\ simulation\r\n
+numComments=5

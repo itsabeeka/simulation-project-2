@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Ebola
+comment0.text=\r\n\ Represents\ the\ disease\ ebola\ and\ extends\ the\ abstract\ class\ Disease.\r\n\ Contains\ the\ static\ final\ variables\ specific\ for\ this\ disease\r\n\r\n\ @author\ Areeba\ Safdar(K20045738)\ and\ Sabeeka\ Ahmad(K20012890)\r\n
+comment1.params=
+comment1.target=Ebola()
+comment1.text=\r\n\ Adds\ the\ species\ Ebola\ will\ affect\ to\ the\ list\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ @return\ the\ name\ of\ the\ disease\r\n
+comment3.params=
+comment3.target=int\ getDamagePoints()
+comment3.text=\r\n\ @return\ the\ number\ of\ energy\ points\ the\ disease\ decreases\r\n
+comment4.params=
+comment4.target=double\ getDiseaseCreationProbability()
+comment4.text=\r\n\ @return\ the\ probability\ of\ the\ disease\ occurring\r\n
+comment5.params=
+comment5.target=int\ getMaxDiseaseLength()
+comment5.text=\r\n\ @return\ the\ number\ of\ steps\ the\ disease\ will\ run\ for\r\n
+comment6.params=
+comment6.target=int\ getNumberOfStepsBeforeNextOutbreak()
+comment6.text=\r\n\ @return\ the\ number\ of\ steps\ before\ the\ next\ outbreak\r\n
+numComments=7

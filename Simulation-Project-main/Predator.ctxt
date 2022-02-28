@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Predator
+comment0.text=\r\n\ An\ abstract\ class\ to\ represent\ all\ the\ predators\ in\ the\ simulation.\r\n\ Predators\ can\ hunt\ for\ prey,\ each\ prey\ will\ have\ different\ food\ levels.\r\n\ The\ food\ level\ is\ the\ amount\ the\ predator's\ energy\ levels\ will\ increase\ by.\r\n\r\n\ @author\ Areeba\ Safdar(K20045738)\ and\ Sabeeka\ Ahmad(K20012890)\r\n
+comment1.params=randomAge\ field\ location
+comment1.target=Predator(boolean,\ Field,\ Location)
+comment1.text=\r\n\ Constructor\ calling\ Species\ constructor,\ and\ if\ the\ predator\ will\ have\r\n\ a\ random\ stating\ age,\ then\ the\ predator\r\n
+comment2.params=specie
+comment2.target=void\ addPrey(java.lang.Class)
+comment2.text=\r\n\ Adds\ species\ to\ the\ prey\ list\r\n\r\n\ @param\ specie\ the\ class\ of\ the\ prey\r\n
+comment3.params=
+comment3.target=void\ incrementHunger()
+comment3.text=\r\n\ Make\ the\ predator\ hungry,\ reducing\ it'd\ energy\ level\ by\ 1;\r\n
+comment4.params=
+comment4.target=Location\ findFood()
+comment4.text=\r\n\ Looks\ for\ all\ the\ prey\ animals\ in\ adjacent\ squares.\r\n\ If\ the\ correct\ animal\ is\ there\ and\ is\ not\ dead\ -\ it\ is\ killed\ and\ eaten.\r\n\ The\ prey's\ food\ value\ is\ set\ as\ the\ new\ energy\ level\ of\ the\ predator\r\n\r\n\ @return\ Where\ food\ was\ found,\ or\ null\ if\ it\ wasn't.\r\n
+comment5.params=newPradators\ isDay\ diseaseBeingSpread\ weatherOccurring
+comment5.target=void\ act(java.util.List,\ boolean,\ Disease,\ Weather)
+comment5.text=\r\n\ This\ is\ what\ the\ predator\ does\ most\ of\ the\ time\:\ it\ hunts\ for\r\n\ prey,\ it\ might\ breed,\ die\ of\ hunger,\ overcrowding,\ and\ old\ age.\r\n\ If\ a\ disease\ is\ being\ spread\ and\ a\ predator\ carries\ this\ disease\ -\ it\r\n\ spreads\ to\ any\ neighboring\ predators\ of\ the\ same\ subclass.\r\n\ If\ a\ weather\ event\ is\ not\ null,\ the\ effect\ of\ that\ weather\ is\ called.\r\n\ If\ the\ simulation\ is\ in\ nighttime,\ predators\ only\ age.\ Otherwise,\ they\r\n\ continue\ with\ all\ of\ their\ activities\r\n\r\n\ @param\ newPradators\ \ \ \ \ \ \ A\ list\ to\ return\ newly\ born\ predators.\r\n\ @param\ isDay\ \ \ \ \ \ \ \ \ \ \ \ \ \ Determines\ if\ the\ simulation\ is\ in\ day\ or\ night\ t(ime\r\n\ @param\ diseaseBeingSpread\ The\ disease\ being\ spread\ (can\ be\ null)\r\n\ @param\ weatherOccurring\ \ \ The\ weather\ event\ occurring\ (can\ be\ null)\r\n
+numComments=6

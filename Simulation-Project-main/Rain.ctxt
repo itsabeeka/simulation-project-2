@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Rain
+comment0.text=\r\n\ This\ class\ in\ a\ subclass\ os\ wetaher.\ It\ returns\ all\ of\ it's\ weather\ specific\ values\ including\:\r\n\ the\ maximum\ weather\ length,\ minimum\ interval\ before\ next\ occurance,\ and\ the\ probability\ of\ it\ happening.\r\n\ The\ plant\ class\ is\ dependent\ on\ rain\ for\ energy,\ so\ the\ effect\ of\ rain\ is\ the\ increment\ its\ energy.\r\n\r\n\ @author\ Areeba\ Safdar(K20045738)\ and\ Sabeeka\ Ahmad(K20012890)\r\n
+comment1.params=
+comment1.target=Rain()
+comment1.text=\r\n\ Constructor\ holds\ the\ name\ of\ the\ weather\ (to\ be\ shown\ on\ the\ simulator\ view\ when\ it's\ raining).\r\n\ The\ classes\ that\ are\ affected\ by\ rain\ are\ added\ to\ the\ speciesAffected\ ArrayList.\r\n
+comment2.params=
+comment2.target=int\ getNumberOfStepsBeforeNextWeather()
+comment2.text=\r\n\ @return\ the\ minimum\ interval\ before\ the\ weather\ can\ reoccur.\r\n
+comment3.params=
+comment3.target=int\ getMaxWeatherLength()
+comment3.text=\r\n\ @return\ the\ mavimum\ number\ of\ steps\ it\ can\ rain\ for.\r\n
+comment4.params=
+comment4.target=double\ getWeatherOccurringProbability()
+comment4.text=\r\n\ @return\ the\ probability\ of\ it\ raining.\r\n
+comment5.params=specie
+comment5.target=void\ effectOfWeather(Species)
+comment5.text=\r\n\ Rain\ restores\ plants\ energy\ to\ their\ maximum\r\n\ @param\ specie\r\n
+numComments=6
